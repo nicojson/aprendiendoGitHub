@@ -1,0 +1,9 @@
+Hola esta es mi historia 
+empieza aprendiende a aprender 
+que nunca hay que parar de aprender
+
+queria ver cual era la primera version 
+de este archivo asi que utilize el comando:
+git checkout "+ id del commite" historias.txt
+pero no me gusto y regrese con el comando:
+git checkout master historias.txt
