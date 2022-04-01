@@ -1,5 +1,6 @@
 body
 {
+    background: #708090;
     color: #333;
     text-align: center;
     font-family: sans-serif;
@@ -7,10 +8,11 @@ body
     margin: 0;
     padding: 0;
 }
+
 #container
 {
     width: 70%;
-    padding: 1em;
+    padding: 0em;
     text-align: left;
     border: 1px solid #DDD;
     margin: 0 auto;
@@ -20,6 +22,7 @@ body
 {
     font-size: 19px;
 }
+
 header
 {
     background: #044902;
@@ -29,9 +32,22 @@ header
     margin: 0;
     padding: 0.5em;
 }
+
+header #logo
+{
+    width: 50px;
+    vertical-align: middle;
+}
+
 header #tagline
 {
     padding: 0 0 0 1em;
     font-weight: normal;
     font-size: 0.8em;
+}
+
+#post
+{
+    background: white;
+    padding: 1em;
 }
